@@ -7,19 +7,20 @@
 </head>
 
 <!-- Head changes made
-1. Removed GB from lang
-2. removed closing / from meta charset
+1. Removed GB from lang because the website is for a US based company not a UK one
+2. Removed closing / from meta charset
 3. Changed the title of the website
 -->
 
-<!--Body changes made
-1. Substitued div header class with a header tag
+<!--Header changes made
+4. Substitued div header class with a header tag
+5. Substitued div for the navbar with a nav tag
 -->
 
 <body>
     <header>   
         <h1>Hori<span class="seo">seo</span>n</h1>
-        <div>
+        <nav>
             <ul>
                 <li>
                     <a href="#search-engine-optimization">Search Engine Optimization</a>
@@ -31,10 +32,19 @@
                     <a href="#social-media-marketing">Social Media Marketing</a>
                 </li>
             </ul>
-        </div>
-    </header>   
- 
-    <div class="hero"></div>
+        </nav>
+    </header>
+
+ <!-- Hero section changes made 
+    6. Substitued div with section
+    7. Specified class hero-img not just hero
+    8. Moved img to HTML instead of CSS background to add alt attribute
+ -->
+    <section class="hero-img">
+        <img src="../accessibility-challenge-w1/assets/images/digital-marketing-meeting.jpg" alt="Small group of people meeting in an office conference room">
+    </section>
+
+    
     <div class="content">
         <div class="search-engine-optimization">
             <img src="./assets/images/search-engine-optimization.jpg" class="float-left" />
@@ -43,6 +53,7 @@
                 The dominance of mobile internet use means that users are searching for the right business as they travel, shop, or sit on their couch at home. Search Engine Optimization (SEO) allows you to increase your visibility and find the right customers for your business.
             </p>
         </div>
+
         <div id="online-reputation-management" class="online-reputation-management">
             <img src="./assets/images/online-reputation-management.jpg" class="float-right" />
             <h2>Online Reputation Management</h2>
