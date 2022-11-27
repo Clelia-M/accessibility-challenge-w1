@@ -7,8 +7,8 @@
 6. Targeted img and h2 of artcle class and removed all identical properties
 7. Removed benefits class and changed for more generic sidebar class
 8. Removed all benefit classes as they were all identical and changed with one class named "sidebar-card"
+9. Substitued footer class with footer semantic tag element
 */
-
 
 * {
     box-sizing: border-box;
@@ -130,13 +130,13 @@ p {
     font-size: 36px;
 }
 
-.footer {
+footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
 
-.footer h2 {
+footer h2 {
     font-size: 20px;
 }
