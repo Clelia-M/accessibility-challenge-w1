@@ -5,6 +5,8 @@
 4. Moved hero-class img to hTML and targeted hero-img img to apply styling
 5. Removed all articles classes as they were all identical and changed with one class named "article-card"
 6. Targeted img and h2 of artcle class and removed all identical properties
+7. Removed benefits class and changed for more generic sidebar class
+8. Removed all benefit classes as they were all identical and changed with one class named "sidebar-card"
 */
 
 
@@ -83,7 +85,7 @@ p {
     margin-left: 20px;
 }
 
-.benefits {
+.sidebar {
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -94,49 +96,17 @@ p {
     background-color: #2589bd;
 }
 
-.benefit-lead {
+.sidebar-card {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-lead h3 {
+.sidebar-card h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-lead img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
+.sidebar-card img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
