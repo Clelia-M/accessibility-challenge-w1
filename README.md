@@ -1,4 +1,4 @@
-# Accessibily Challenge - Bootcamp Module 1
+# Accessibility Challenge - Bootcamp Module 1
 
 ## Table of Contents
 - [Description](#description)
