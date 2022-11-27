@@ -66,7 +66,7 @@ FOOTER section
 
 ## CSS
 
-**All changed made**
+**All changes made**
 
 1. Substitued header class with header tag on all instances
 2. Substitued div for the navbar with a nav tag
@@ -84,3 +84,6 @@ FOOTER section
 
 Starter code provided as part of the Module challenge for the challenge for the Trilogy Skills Bootcamp in Front-End Web Development.
 
+## Final result
+
+![alt text](assets/thumb/01-html-css-git-challenge-final.png)
