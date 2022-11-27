@@ -1,6 +1,7 @@
 /* Changes made 
 1. Substitued header class with header tag on all instances
 2. Substitued div for the navbar with a nav tag
+3. Removed span class seo to target the content just using header h1 span
 3. Substitued hero class with hero-img class
 4. Moved hero-class img to hTML and targeted hero-img img to apply styling
 5. Removed all articles classes as they were all identical and changed with one class named "article-card"
@@ -9,6 +10,8 @@
 8. Removed all benefit classes as they were all identical and changed with one class named "sidebar-card"
 9. Substitued footer class with footer semantic tag element
 */
+
+/* General styling */
 
 * {
     box-sizing: border-box;
@@ -19,6 +22,12 @@
 body {
     background-color: #d9dcd6;
 }
+
+p {
+    font-size: 16px;
+}
+
+/* Header */
 
 header {
     padding: 20px;
@@ -32,7 +41,7 @@ header h1 {
     font-size: 48px;
 }
 
-header h1 .seo {
+header h1 span {
     color: #d9dcd6;
 }
 
@@ -58,15 +67,39 @@ a {
     text-decoration: none;
 }
 
-p {
-    font-size: 16px;
-}
+/* Hero */
 
 .hero-img img {
     width: 100%;
     margin-bottom: 25px;
     background-size: cover;
     background-position: center;
+}
+
+/* Main content section */
+
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.article-card {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.article-card img {
+    max-height: 200px;
+}
+
+.article-card h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
 }
 
 .float-left {
@@ -79,11 +112,7 @@ p {
     margin-left: 25px;
 }
 
-.content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
-}
+/* Sidebar */
 
 .sidebar {
     margin-right: 20px;
@@ -112,23 +141,7 @@ p {
     max-width: 150px;
 }
 
-.article-card {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.article-card img {
-    max-height: 200px;
-}
-
-.article-card h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
+/* Footer */
 
 footer {
     padding: 30px;
