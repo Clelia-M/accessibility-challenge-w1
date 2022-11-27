@@ -1,16 +1,3 @@
-/* Changes made 
-1. Substitued header class with header tag on all instances
-2. Substitued div for the navbar with a nav tag
-3. Removed span class seo to target the content just using header h1 span
-3. Substitued hero class with hero-img class
-4. Moved hero-class img to hTML and targeted hero-img img to apply styling
-5. Removed all articles classes as they were all identical and changed with one class named "article-card"
-6. Targeted img and h2 of artcle class and removed all identical properties
-7. Removed benefits class and changed for more generic sidebar class
-8. Removed all benefit classes as they were all identical and changed with one class named "sidebar-card"
-9. Substitued footer class with footer semantic tag element
-*/
-
 /* General styling */
 
 * {
