@@ -5,6 +5,7 @@
 - [Changes Made HTML](#html)
 - [Changes Made CSS](#css)
 - [Credits](#credits)
+- [Final result](#final-result)
 
 ## Description
 
